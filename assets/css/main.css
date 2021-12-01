@@ -3493,7 +3493,8 @@ input, select, textarea {
 			padding: 6em;
 			position: relative;
 			text-align: right;
-			vertical-align: middle;
+			horiz-align: center;
+			vertical-align: center;
 			z-index: 1;
 		}
 
@@ -3519,13 +3520,15 @@ input, select, textarea {
 
 				margin-left: 3em;
 				vertical-align: middle;
+				horiz-align: center;
+				position: absolute;
 				width: 18em;
 			}
 
 				#banner .content .image img {
 					border-radius: 100%;
 					display: block;
-					width: 100%;
+					width: 90%;
 				}
 
 	body.is-touch #banner {

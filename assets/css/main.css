@@ -2507,15 +2507,30 @@ input, select, textarea {
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
+
+				/*Custom*/
+
+.blog {
+	border-radius: 4px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	filter: none;
+
+}
+
+
 /* Image */
 
 	.image {
 		border-radius: 4px;
-		border: 0;
+		border: none;
 		display: inline-block;
 		position: relative;
-		overflow: hidden;
+		overflow: visible;
 		filter: none;
+
 		opacity: 1;
 	}
 
@@ -3493,7 +3508,7 @@ input, select, textarea {
 			padding: 6em;
 			position: relative;
 			text-align: right;
-			horiz-align: center;
+
 			vertical-align: center;
 			z-index: 1;
 		}
@@ -3520,15 +3535,15 @@ input, select, textarea {
 
 				margin-left: 3em;
 				vertical-align: middle;
-				horiz-align: center;
-				position: absolute;
+
+
 				width: 18em;
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					border-radius: 0%;
 					display: block;
-					width: 90%;
+					width: 100%;
 				}
 
 	body.is-touch #banner {
